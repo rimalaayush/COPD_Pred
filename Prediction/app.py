@@ -11,7 +11,7 @@ import streamlit as st
 # Prediction\Best_Random_Forest_Model.pkl
 
 # Try another way to load the file
-model = pickle.load(open('../Prediction/Best_Random_Forest_Model.pkl', 'rb'))
+model = pickle.load(open('Prediction/Best_Random_Forest_Model.pkl', 'rb'))
 # Streamlit App
 
 def main():
